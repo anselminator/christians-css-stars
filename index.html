@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>hello, world!</title>
+    <title>Cosmos, by Carl Sagen</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       rel="stylesheet"
@@ -20,14 +20,20 @@
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     ></script>
+    <link rel="shortcut icon" type="image/x-icon" href="images/rebels.svg" />
   </head>
 
   <body>
+    <div class="stars-wrapper w-100 h-100">
+        <div id='stars'></div>
+        <div id='stars2'></div>
+        <div id='stars3'></div>
+    </div>
     <nav id="navbar" class="navbar bg-light px-3 fixed-top">
       <div class="container">
-        <a class="navbar-brand d-flex align-items-center" href="#"
-          ><img src="images/rebels.svg" alt=""
-        /></a>
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img src="images/rebels.svg" alt="" />
+        </a>
         <ul class="nav nav-pills">
           <li class="nav-item">
             <a class="nav-link" href="#the-cosmos">The Cosmos</a>
@@ -49,23 +55,23 @@
       <div class="spacer">&nbsp;</div>
 
       <div class="container">
-        <div class="row mt-5 justify-content-center">
-            <div class="col-12 text-center">
-                <h1 id="the-cosmos">
-                    <a href="#the-cosmos">The <em>Cosmos</em> is all there is</a>
-                  </h1>
-            </div>
+        <div class="row mt-5 pt-4 justify-content-center">
+          <div class="col-12 text-center">
+            <h1 id="the-cosmos">
+              <a href="#the-cosmos">The Cosmos is all there is</a>
+            </h1>
+            <h2 class="mb-1">Or ever was, or ever will be</h2>
+              <h3 class=""></h3><time datetime="03-09-2014">MAR. 9, 2014</time>
+          </div>
         </div>
         <div class="row mt-5 justify-content-center">
-          <div class="col-6 mt-5">
+          <div class="col-6">
             <article class="">
-                <h2 class="mb-1">Or ever was, or ever will be</h2>
-              <time datetime="03-09-2014">MAR. 9, 2014</time>
-              <p id="the-cosmos-text" >
-                <em>A generation ago</em>, the astronomer
+            <h2 class="mb-1">About Carl Sagen</h2>
+            <h3 class="text-uppercase">A generation ago, the astronomer</h3>
+              <p id="the-cosmos-text" class="mt-2">
                 <a href="https://en.wikipedia.org/wiki/carl_sagan"
-                  >Carl Sagan</a
-                >
+                  >Carl Sagan</a>
                 stood here and launched hundreds of millions of us on a great
                 adventure the exploration of the universe revealed by science.
                 It's time to get going again. We're about to begin a journey
@@ -88,10 +94,10 @@
         </div>
         <div class="row mt-4 justify-content-center">
           <div class="col-6">
-            <h2 class="mb-1">The <em>Cosmos</em>.</h2>
+            <h2 class="mb-1">The Cosmos.</h2>
             <h4 id="scrollspyHeading2"></h4>
             <h3 id="aboutUs">COSMOS IS ALSO A STORY ABOUT US</h3>
-            <p>
+            <p class="mt-2">
               It's the saga of how wandering bands of hunters and gatherers
               found their way to the stars, one adventure with many heroes. To
               make this journey, we'll need imagination. But imagination alone
@@ -104,10 +110,12 @@
               <strong>Accept these terms, and the cosmos is yours.</strong>
             </p>
           </div>
-          <div class="col-5  d-flex align-items-center justify-content-center">
+          <div class="col-5 d-flex align-items-center justify-content-center">
             <img
               src=" https://solarsystem.nasa.gov/system/people/detail_images/660_270946main_CarlSagan_20080903-browse.jpg"
-              alt="" class="img img-fluid" id="portrait"
+              alt=""
+              class="img img-fluid"
+              id="portrait"
             />
           </div>
         </div>
